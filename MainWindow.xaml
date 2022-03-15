@@ -1,0 +1,19 @@
+﻿<Window x:Class="Spielautomat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spielautomat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="465.385" Background="White">
+    <Grid Margin="0,0,-8,0">
+        <TextBlock x:Name="TB_Zahl1" HorizontalAlignment="Left" Margin="153,80,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="52" Width="33" FontSize="36" TextAlignment="Center"/>
+        <TextBlock x:Name="TB_Zahl2" HorizontalAlignment="Left" Margin="221,80,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="52" Width="33" FontSize="36" TextAlignment="Center"/>
+        <TextBlock x:Name="TB_Zahl3" HorizontalAlignment="Left" Margin="282,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="33" Text="0" FontSize="36" TextAlignment="Center"/>
+        <Label Content="Guthaben" HorizontalAlignment="Left" Margin="92,199,0,0" VerticalAlignment="Top" Height="37" Width="108" FontSize="22"/>
+        <Label Content="Einsatz" HorizontalAlignment="Left" Margin="245,199,0,0" VerticalAlignment="Top" Height="37" Width="108" FontSize="22"/>
+        <TextBlock x:Name="TB_Guthaben" HorizontalAlignment="Left" Margin="92,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="108" FontSize="22" Text="5" TextAlignment="Center"/>
+        <TextBox x:Name="TBox_Einsatz" HorizontalAlignment="Left" Height="41" Margin="245,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" FontSize="22"/>
+        <Button x:Name="B_Spiel" Content="Spielen" HorizontalAlignment="Left" Margin="183,310,0,0" VerticalAlignment="Top" Width="95" Height="41" FontSize="24" Click="B_Spiel_Click"/>
+    </Grid>
+</Window>
