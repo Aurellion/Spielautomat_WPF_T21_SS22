@@ -34,7 +34,7 @@ namespace Spielautomat
 
         private void B_Spiel_Click(object sender, RoutedEventArgs e)
         {
-            TB_Zahl1.Text = "5";
+            TB_Zahl1.Text = "10";
         }
     }
 }
