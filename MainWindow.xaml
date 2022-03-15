@@ -12,7 +12,7 @@
         <TextBlock x:Name="TB_Zahl3" HorizontalAlignment="Left" Margin="282,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="33" Text="0" FontSize="36" TextAlignment="Center"/>
         <Label Content="Guthaben" HorizontalAlignment="Left" Margin="92,199,0,0" VerticalAlignment="Top" Height="37" Width="108" FontSize="22"/>
         <Label Content="Einsatz" HorizontalAlignment="Left" Margin="245,199,0,0" VerticalAlignment="Top" Height="37" Width="108" FontSize="22"/>
-        <TextBlock x:Name="TB_Guthaben" HorizontalAlignment="Left" Margin="92,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="108" FontSize="22" Text="5" TextAlignment="Center"/>
+        <TextBlock x:Name="TB_Guthaben" HorizontalAlignment="Left" Margin="92,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="108" FontSize="22" TextAlignment="Center"/>
         <TextBox x:Name="TBox_Einsatz" HorizontalAlignment="Left" Height="41" Margin="245,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" FontSize="22"/>
         <Button x:Name="B_Spiel" Content="Spielen" HorizontalAlignment="Left" Margin="183,310,0,0" VerticalAlignment="Top" Width="95" Height="41" FontSize="24" Click="B_Spiel_Click"/>
     </Grid>
